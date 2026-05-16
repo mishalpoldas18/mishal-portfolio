@@ -1,0 +1,27 @@
+.contact{
+    position: relative;
+    z-index: 1;
+    background-color: rgb(18, 19, 47);
+    height: 400px;
+}
+.contact-title{
+    font-size: 90px;
+    color: #96b9eb;
+    font-family: 'Saira Stencil', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 0 0 20px rgba(176, 183, 232, 0.6);
+}
+.info{
+    font-size: 25px;
+    color: #96b9eb;
+    font-family: Roboto;
+    font-weight: 250;
+    text-align: center;
+    padding-top: 20px;
+}
+.info a {
+    color: inherit;
+    text-decoration: underline;
+}

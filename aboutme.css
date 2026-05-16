@@ -1,0 +1,28 @@
+
+.about-me {
+    position: relative;
+    z-index: 1;
+    background-color: rgb(4, 3, 30);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.reveal-word {
+    font-size: 105px;
+    font-weight: 600;
+    color: #96b9eb;
+    -webkit-text-fill-color: #96b9eb;
+    filter: drop-shadow(0 0 15px rgba(176, 183, 232, 0.6));
+    opacity: 0.1;
+    transition: opacity 0.5s ease;
+    margin: 0;
+    line-height: 1.2;
+    font-family: 'Saira Stencil', sans-serif;
+}
+.reveal-word.active {
+    opacity: 1;
+}
+

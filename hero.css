@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: rgba(1, 1, 26, 0.975)
+}
+
+
+.forest-section {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.forest-bg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.05s linear;
+
+}
+
+
+.glow-1{
+    position: absolute;
+    width: 6%;
+    left: 41.5%;
+    bottom: 31%;
+    opacity: 10%;
+    transition: opacity 1s;
+}
+.glow-1:hover{
+    opacity: 100%;
+}
+
+.glow-2 {
+    position: absolute;
+    width: 17%;
+    left: 46%;
+    bottom: 66%;
+    opacity: 10%;
+    transition: opacity 1s;
+}
+.glow-2:hover{
+    opacity: 100%;
+}
+
+.glow-3 {
+    position: absolute;
+    width: 6%;
+    left: 29.6%;
+    bottom: 44.1%;
+    opacity: 10%;
+    transition: opacity 1s;
+}
+.glow-3:hover{
+    opacity: 100%;
+}
+
+.glow-4 {
+    position: absolute;
+    width: 5%;
+    left: 63.8%;
+    bottom: 43%;
+    opacity: 10%;
+    transition: opacity 1s;
+}
+.glow-4:hover{
+    opacity: 100%;
+}
+
+.glow-5 {
+    position: absolute;
+    width: 7%;
+    left: 33%;
+    bottom: 73%;
+    opacity: 10%;
+    transition: opacity 1s;
+}
+.glow-5:hover{
+    opacity: 100%;
+}
+
+.glow-6 {
+    position: absolute;
+    width: 9%;
+    left: 39%;
+    bottom: 56%;
+    opacity: 10%;
+    transition: opacity 1s;
+}
+.glow-6:hover{
+    opacity: 100%;
+}
+
+.header {
+    position: absolute;
+    opacity: 70%;
+    color: rgb(154, 178, 227);
+    font-size: 50px;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 2px 2px black;
+    
+}

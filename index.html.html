@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mishal's Portfolio</title>
+        <style>
+           .sparkle {
+                position: absolute;
+                border-radius: 50%;
+                pointer-events: none;
+                z-index: 9999;
+                animation: sparkle-fade 0.8s forwards;
+                
+            }
+
+            @keyframes sparkle-fade {
+                0% { transform: scale(1) translate(0, 0); opacity: 1; }
+                100% { transform: scale(0) translate(
+                    calc((var(--rx, 1) - 0.5) * 40px),
+                    calc((var(--ry, 1) - 0.5) * 40px)
+                ); opacity: 0; }
+            }
+
+        </style>
+        <link rel="stylesheet" href="hero.css">
+        <link rel="stylesheet" href="aboutme.css">
+        <link rel="stylesheet" href="exp-section.css">
+        <link rel="stylesheet" href="projects.css">
+        <link rel="stylesheet" href="contact.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+         <!--HERO SECTION-->
+        <div class="forest-section">
+            <img class="forest-bg" src="hero-section-imgs/forest-bg.jpeg">
+            <img class="glow-1" src="hero-section-imgs/glow1.png">
+            <img class="glow-2" src="hero-section-imgs/glow2.png">
+            <img class="glow-3" src="hero-section-imgs/glow3.png">
+            <img class="glow-4" src="hero-section-imgs/glow4.png">
+            <img class="glow-5" src="hero-section-imgs/glow5.png">
+            <img class="glow-6" src="hero-section-imgs/glow6.png">
+
+            <p class="header">
+                Engineered to Explore.
+            </p>
+        </div>
+
+        <!--ABOUT ME SECTION-->
+        <div class="about-me">
+            <p class="reveal-word" id="word1">MECHATRONICS</p>
+            <p class="reveal-word" id="word2">ENGINEER</p>
+            <p class="reveal-word" id="word3">PROBLEM</p>
+            <p class="reveal-word" id="word4">SOLVER</p>
+            <p class="reveal-word" id="word5">CREATOR</p>
+        </div>
+
+        <!-- experience section -->
+        <div class="experience">
+            <img class="river-bg" src="exp-logos/river-bg-flow.png">
+            <div class="exp"> 
+                <img class="upgraded-logo" src="exp-logos/Upgraded13.png">
+                <div class="exp-text-left">
+                    <div class="role">
+                        AI Operations
+                    </div>
+                    <div class="desc">
+                        Engineered AI automation pipelines that reduced weekly operational workload by 60%, created UI mockups and wireframes in Figma, HTML, and CSS, and redesigned content workflows that scaled monthly website visitors by 3,900% while achieving record-high application click-through rates.
+                    </div>
+                </div>
+            </div>
+            <div class="exp"> 
+                <img class="waturbine-logo" src="exp-logos/waturbine-logo.png">
+                <div class="exp-text-right">
+                    <div class="role">
+                        Controls: Electrical Member
+                    </div>
+                    <div class="desc">
+                        Designing a current sensor from scratch to measure wind turbine output current, producing technical documentation and translating specifications into a PCB schematic in Altium Designer to enable real-time fault detection.
+
+                    </div>
+                </div>
+            </div>
+            <div class="exp"> 
+                <img class="biotron-logo" src="exp-logos/biotron-logo.png"> 
+                <div class="exp-text-left">
+                    <div class="role">
+                        e-NABLE: Mechanical Member
+                    </div>   
+                    <div class="desc">
+                        Designed a universal wheelchair umbrella mounting system in SolidWorks, engineered an adjustable double-sided clamp sized from real-world measurements, and led a 3-person team through full product lifecycle from 3D printing to final prototype delivery.
+                    </div>
+                </div>
+            </div>
+            <div class="exp"> 
+                <img class="art-logo" src="exp-logos/art-logo.jpg">
+                <div class="exp-text-right">
+                    <div class="role"> Freelance art
+                    </div>
+                    <div class="desc">
+                        Built an audience of 4,500+ followers through consistent content creation and was selected to exhibit original artwork at the 2023 & 2024 United Nurses Gala, reaching 1,000+ attendees per event and raising funds for community causes.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects">
+            <div class="projects-title"> PROJECTS </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-name">
+                        Youtube Hompage Clone
+                    </div>
+                    <img class="project-img" src="project-imgs/YT project img.png">
+                    <div class="description">
+                        Built a pixel-accurate YouTube homepage clone using HTML and CSS, implementing Flexbox and Grid layouts, dynamic hover effects, and positional styling. Focused on replicating production-grade UI details including responsive design and accurate component structure.
+                    </div>
+                    <a class="github-btn" href="https://github.com/mishalpoldas18/Youtube-Homepage-Clone" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-name">
+                        Autonomous Pet-Feeder Robot
+                    </div>
+                    <img class="project-img" src="project-imgs/robot project img.jpeg">
+                    <div class="description">
+                        Built an autonomous pet-feeding robot in C++ on VEX IQ hardware as part of a team. Used color sensors to identify each pet's bowl and dispense pre-calibrated food portions. Collaborated in design and 3D printed mechanical components in SolidWorks across multiple iterations.
+                    </div>
+                    <a class="github-btn" href="https://docs.google.com/presentation/d/1jePNxcE6F4upkzDYYz5u-zo8RuzlzhMsjWygv7SDRC8/edit?usp=sharing" target="_blank">View Presentation</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-name">
+                        Wheelchair Umbrella Holder
+                    </div>
+                    <img class="project-img" src="project-imgs/wheelchair umbrella holder project img.jpeg">
+                    <div class="description">
+                        Designed a universal umbrella mounting system for wheelchair users in SolidWorks, engineering an adjustable double-sided clamp sized from real-world measurements. 3D printed and assembled functional prototypes with a 3-person team ahead of final product presentation.
+                    </div>
+                    <a class="github-btn" href="https://canva.link/83fnhnmin4mz8um" target="_blank">View Presentation</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-name">
+                        Art Portfolio/Personal Business
+                    </div>
+                    <img class="project-img" src="project-imgs/art project img.png">
+                    <div class="description">
+                        Built a freelance art business with 4,500+ followers across social platforms, managing client commissions end-to-end from scoping to delivery. Selected to exhibit artwork at the 2023 & 2024 United Nurses Gala, reaching 1,000+ attendees per event and raising funds for community causes.
+                    </div>
+                    <a class="github-btn" href="https://www.instagram.com/artbymishal_/?hl=en" target="_blank">View Instagram</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="contact">
+            <div class="contact-title">
+                Let's Connect
+            </div>
+            <div class="info">
+                <a href="mailto:mishal.poldas18@gmail.com">mishal.poldas18@gmail.com</a>
+            </div>
+            <div class="info">
+                (+1) 780 807 4327
+            </div>
+            <div class="info">
+                <a href="https://www.linkedin.com/in/mishal-poldas-171763325/" target="_blank">linkedin.com/in/mishal-poldas</a>
+            </div>
+
+        </div>
+        
+        
+
+    <script>
+       const words = document.querySelectorAll('.reveal-word');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                } else {
+                    entry.target.classList.remove('active');
+                }
+            });
+        }, { 
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        });
+
+        words.forEach(word => observer.observe(word));
+
+        document.addEventListener('mousemove', (e) => {
+            const sparkle = document.createElement('div');
+            sparkle.classList.add('sparkle');
+            sparkle.style.left = e.pageX + 'px';
+            sparkle.style.top = e.pageY + 'px';
+            sparkle.style.width = Math.random() * 6 + 3 + 'px';
+            sparkle.style.height = sparkle.style.width;
+            const colors = ['#00ffff', '#a78bfa', '#7ec8e3', '#ffffff'];
+            sparkle.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+            document.body.appendChild(sparkle);
+            setTimeout(() => sparkle.remove(), 800);
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            for (let i = 0; i < 1; i++) { 
+                const sparkle = document.createElement('div');
+                sparkle.classList.add('sparkle');
+                sparkle.style.left = e.pageX + (Math.random() - 0.5) * 20 + 'px';
+                sparkle.style.top = e.pageY + (Math.random() - 0.5) * 20 + 'px';
+                const size = Math.random() * 6 + 3;
+                sparkle.style.width = size + 'px';
+                sparkle.style.height = size + 'px';
+                sparkle.style.setProperty('--rx', Math.random());
+                sparkle.style.setProperty('--ry', Math.random());
+                const colors = ['#00ffff', '#a78bfa', '#7ec8e3', '#ffffff'];
+                sparkle.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                sparkle.style.boxShadow = `0 0 6px ${sparkle.style.backgroundColor}`;
+                document.body.appendChild(sparkle);
+                setTimeout(() => sparkle.remove(), 800);
+            }
+        });
+
+        
+    </script>    
+
+    </body>
+</html>
